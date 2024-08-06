@@ -12,4 +12,21 @@ public class Persona {
     public double calcularIMC() {
         return peso / Math.pow(estatura, 2);
     }
+
+    public double getPeso() {
+        return peso;
+    }
+
+    public void setPeso(double peso) {
+        this.peso = peso;
+    }
+
+    public double getEstatura() {
+        return estatura;
+    }
+
+    public void setEstatura(double estatura) {
+        this.estatura = estatura;
+    }
+    
 }
